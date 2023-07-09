@@ -53,7 +53,7 @@ nav a{
 /*header related styles*/
 .header{
     background-color: antiquewhite;
-    background-image: url(../photos/Background.avif image.jpg);
+    background-image: url(../photos/Background.avifimage.jpg);
     background-repeat: no-repeat;
     background-position: bottom right;
 }
@@ -155,7 +155,25 @@ main section{
 /* footer styles*/
 footer{
     display: flex;
+    gap: 100px;
     background: #fff8f3;
     margin-top: 100px;
     padding: 130px 200px;
+}
+.footer-column{
+    width: 50%;
+
+}
+.social-links a{
+    margin-right: 25px;
+}
+.contact input[type="text"], .contact input[type="email"], textarea {
+    display: block;
+    margin-bottom: 30px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #fff;
+    border: 0;
+    width: 100%;
 }
