@@ -128,3 +128,7 @@ main section{
     font-size: 30px;
     font-weight: 700px;
 }
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
