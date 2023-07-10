@@ -53,9 +53,9 @@ nav a{
 /*header related styles*/
 .header{
     background-color: antiquewhite;
-    background-image: url(../photos/Background.avifimage.jpg);
+    background-image: url(../photos/Background.avifimage.jpg) url('../photos/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 .banner{
     padding: 30px 30px 0px 150px;
